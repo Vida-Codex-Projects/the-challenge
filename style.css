@@ -4,21 +4,6 @@
     padding: 0;
  }
 
-body {
-    background-color: rgb(243, 226, 148);
-}
-
- header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:25px 100px;
- }
-
 .tangerine-bold {
   font-family: "Tangerine", cursive;
   font-weight: bold;
@@ -97,15 +82,7 @@ span {
    margin: 0 auto 45px auto;
 }
 
-/* .hero button {
-    font-family: "tangerine";
-    font-weight: 700;
-    font-size: 30px;
-    background-color: rgb(241, 193, 102);
-    width: 135px;
-    height: 65px;
-    border-radius: 50px 0px;
-} */
+
 
 .content h2 {
     font-size: 60px;
@@ -132,7 +109,7 @@ span {
 }
 
 .cta button {
-     font-family: "tangerine";
+    font-family: "tangerine";
     font-weight: 700;
     font-size: 30px;
     background-color: rgb(241, 193, 102);
@@ -140,5 +117,86 @@ span {
     height: 65px;
     border-radius: 50px 0px;
 }
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    color: #333;
+}
+
+
+.suggestion {
+    font-weight: bold;
+    min-height: 60px;
+    margin-top: 1rem;
+}
+
+.heading {
+    font-family: "tangerine";
+    font-size: 50px;
+    background: linear-gradient(30deg, orange, black);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.cta-form input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff9c4; 
+    color: #ca7608;
+} 
+
+.sub{
+    font-family: "tangerine";
+    font-weight: 700;
+    font-size: 30px;
+    background-color: rgb(241, 193, 102);
+    width: 135px;
+    height: 65px;
+    border-radius: 50px 0px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
